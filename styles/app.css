@@ -1,0 +1,54 @@
+nav{
+	background:#212121;
+}
+.navbar .navbar-brand{
+	font-family:Roboto;
+	padding:30px;
+	color:#F5F5F5;
+	margin:auto;
+	font-size:60px;
+}
+
+#fform{
+	margin-top:1%;
+}
+
+#fform .form-control{
+	margin-left:2%;
+	margin-right:10%;
+	font-size:30px;
+}
+
+#fform input{
+	font-size:30px;
+}
+
+#fform .input-group-text{
+	width:100%;
+	margin-left:10%;
+	font-size:20px;
+}
+
+#fform .btn{
+	margin-top:1%;
+	margin-left:50%;
+	font-size:20px;
+}
+
+.items{
+	display:flat;
+}
+
+.list-inline{
+	font-family:Merriweather;
+	display:flat;
+	font-size:20px;
+}
+.list-inline li{
+	padding:5px;
+}
+
+ul:nth-child(2n){
+    background: #BDBDBD;
+	background-color: #F5F5F5;
+}

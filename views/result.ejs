@@ -1,0 +1,22 @@
+<%- include('../styles/header') %>
+
+<nav class="navbar">
+  <span class="navbar-brand mb-0 h1">List of Movies</span>
+</nav>
+
+<div class='items'>
+	<% mov['Search'].forEach(function(m){ %>
+	<ul>
+		<ol class='list-inline'>
+			<li><strong>Title:</strong>   <%= m['Title'] %></li>
+			<li><strong>Year:</strong>    <%= m['Year'] %></li>
+			<li><strong>IMDB id:</strong> <%= m['imdbID'] %></li>
+			<li><strong>Type:</strong>    <%= m['Type'] %></li>
+			<!-- <strong>Poster:</strong><br> -->
+			<img src=<%=m['Poster']%> >
+		</ol>
+	</ul>
+	<% }) %>
+</div>
+
+<%- include('../styles/footer') %>
